@@ -897,5 +897,6 @@ For example, conversational prompts:
 
 Kaggle run - 100000: https://www.kaggle.com/code/amitsharma2705/hindi-2 
 kaggle run - 10000: https://www.kaggle.com/code/amitsharma2705/hindi-llm-step5-subset-training 
+Dataset used - https://www.kaggle.com/datasets/disisbig/hindi-wikipedia-articles-172k 
 
 
