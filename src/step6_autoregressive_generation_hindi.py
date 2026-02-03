@@ -31,7 +31,7 @@ print("Hindi vocab size:", vocab_size)
 # 3. LOAD TRAINED STUDENT MODEL
 # ============================================================
 
-MODEL_PATH = "student_hindi_model"
+MODEL_PATH = "student_hindi_model_trained_on_100000"
 
 model = GPT2LMHeadModel.from_pretrained(MODEL_PATH)
 model.to(device)
@@ -44,7 +44,7 @@ model.eval()
 def generate_hindi_text(
     prompt,
     max_new_tokens=50,
-    temperature=1.0
+    temperature=0.3
 ):
     """
     Generates Hindi text token-by-token using
