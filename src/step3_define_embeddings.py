@@ -6,7 +6,7 @@ sp = spm.SentencePieceProcessor()
 sp.load("tokenizers/hindi_bpe.model")
 
 vocab_size = sp.get_piece_size()
-embedding_dim = 256  # design choice (moderate, exam-safe)
+embedding_dim = 256  # design choice 
 
 print(f"Vocabulary size: {vocab_size}")
 print(f"Embedding dimension: {embedding_dim}")
